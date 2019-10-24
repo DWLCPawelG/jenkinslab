@@ -10,7 +10,8 @@ pipeline {
                     echo "This stage was a success!"
                 }
             }
-        }            
+        }
+    }
     post {
         always {
             echo "Job complete"
